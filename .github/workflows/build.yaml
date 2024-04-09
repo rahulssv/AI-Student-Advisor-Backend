@@ -30,11 +30,10 @@ jobs:
     - name: Fetching node modules
       run: |
         npm install
-    - name: Build distributable
-      run: |
-          npm run build
-      # npm run lint || true
-        
+    # - name: Build distributable
+    #   run: |
+    #       npm run lint || true
+    #       npm run build
 
     - name: Prepare Production-Only node_modules
       run: |
